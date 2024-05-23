@@ -9,6 +9,8 @@ paperurl: 'https://link.springer.com/chapter/10.1007/978-3-642-55099-7_5'
 author: Ismael Figueroa, Nicolas Tabareau, Éric Tanter
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Aspect-oriented programming (AOP) aims to enhance modularity and reusability in
@@ -41,3 +43,6 @@ language. This work brings type-based reasoning about effects for the first
 time in the pointcut/advice model, in a framework that is both expressive and
 extensible; thus allowing development of robust aspect-oriented systems as well
 as being a useful research tool for experimenting with new aspect semantics.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

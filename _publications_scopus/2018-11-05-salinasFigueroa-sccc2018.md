@@ -9,6 +9,8 @@ paperurl: 'https://ieeexplore.ieee.org/document/8705158'
 author: Matías Salinas Soto, Ismael Figueroa
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 There are many factors present in the current problems found in the
@@ -24,3 +26,6 @@ problems in which Code::Blocks is perceived as threaning and non-motivating,
 thus potentially hampering the learning process of our students. We conceive
 this work as a step towards the development of a student-focused programming
 environment for our programming courses.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

@@ -5,9 +5,11 @@ permalink: /publication/scopus/gaeteAl-ingeniare2021
 year: 2021
 date: 2021-03-01
 venue: 'Ingeniare. Revista chile de ingeniería'
-paperurl: 'https://prg.is.titech.ac.jp/members/masuhara/papers/cop2020draft.pdf'
+paperurl: 'https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-33052021000100141'
 author: José Gaete, Rodolfo Villarroel, Ismael Figueroa, Héctor Cornide-Reyes, Roberto Muñoz
 ---
+
+{{ page.author }}
 
 ## Abstract
 
@@ -23,3 +25,6 @@ cuantitativos y cualitativos. Los resultados obtenidos a partir del caso de
 estudio resultaron ser bastantes positivos porque nos permitió evaluar de forma
 integral el nuevo enfoque. Estos resultados representan un prometedor inicio
 para continuar trabajando en este camino.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

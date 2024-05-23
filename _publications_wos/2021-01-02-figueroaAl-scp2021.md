@@ -11,6 +11,8 @@ doi: '10.1016/j.scico.2020.102523'
 quartil: 3
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Monads are a mechanism for embedding and reasoning about notions of computation
@@ -33,3 +35,6 @@ similar both for mtl and alternatives. Finally, the state monad is by far the
 most popular one, although all of them are used. We also report on the
 distribution of packages that use mtl, regarding their category and stability
 level.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

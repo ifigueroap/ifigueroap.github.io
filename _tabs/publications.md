@@ -6,9 +6,7 @@ toc: true
 ---
 
 {% if site.publications_wos.size > 0 %}
-
 ## WoS Publications
-
 <ul>
 {% for post in site.publications_wos reversed %}
   <li>

@@ -9,6 +9,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?doid=2451598.2451600'
 author: Ismael Figueroa, Nicolas Tabareau, Éric Tanter
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 When a software system is developed using several aspects, special care must be
@@ -25,3 +27,6 @@ computational interference between aspects is controlled by the membrane
 topology. To combine independent and reusable aspects and monadic components
 into a program specification we use monad views, a recent technique for
 conveniently handling the monadic stack.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

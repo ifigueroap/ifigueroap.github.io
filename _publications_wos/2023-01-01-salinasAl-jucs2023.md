@@ -11,6 +11,8 @@ paperurl: "https://lib.jucs.org/article/81329/"
 quartil: 3
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Many factors influence the problems that currently exist in the
@@ -41,3 +43,6 @@ icons “very understandable” by 66.7%. The students also found the tool
 the findings obtained by the heuristic evaluation of Incre-IDLE from the
 experts: 83.3% of them rated it as “useful” or “very useful”, and only a 16.7%
 rated it as “useless”.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

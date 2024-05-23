@@ -9,6 +9,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=3264649'
 author: Ismael Figueroa, Bruno García, Paul Leger
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Program verification is a tool for the development of software that is free
@@ -28,3 +30,6 @@ by automatically-generated checks. We argue that our approach is correct by
 construction, by relying on the architecture of Dafny itself, and we also
 discuss several issues regarding the threats to the proposed approach as well
 as perspectives for further development.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

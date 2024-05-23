@@ -10,6 +10,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=2162018'
 author: Ismael Figueroa, Éric Tanter, Nicolas Tabareau
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 We present Monascheme, an extensible aspect-oriented programming language based
@@ -20,3 +22,6 @@ an execution level monad and a level-aware exception transformer. Semantic
 variations can be obtained through monad combinations. This work is also a
 first step towards a framework for controlling aspects with monads in the
 pointcut and advice model of AOP.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

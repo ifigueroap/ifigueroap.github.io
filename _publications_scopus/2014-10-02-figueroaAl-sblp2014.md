@@ -9,6 +9,8 @@ paperurl: 'https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7'
 author: Ismael Figueroa, Nicolas Tabareau, Éric Tanter
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Computational effects complicate the tasks of reasoning about and maintaining
@@ -26,3 +28,6 @@ using type classes to establish a way to statically share capabilities between
 modules, as well as to check proper access permissions to effects at compile
 time. We exemplify how to tame effect interferences using effect capabilities,
 by treating state and exceptions.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

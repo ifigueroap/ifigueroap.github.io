@@ -210,7 +210,6 @@ defaults:
       type: publications_wos # see `site.collections`
     values:
       layout: page
-      permalink: /publications/wos/:slug/
   - scope:
       path: ""
       type: publications_scopus # see `site.collections`

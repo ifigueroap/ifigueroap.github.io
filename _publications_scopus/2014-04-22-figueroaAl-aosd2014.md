@@ -9,6 +9,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=2577093'
 author: Ismael Figueroa, Tom Schrijvers, Nicolas Tabareau, Éric Tanter
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Oliveira and colleagues recently developed a powerful model to reason about
@@ -25,3 +27,6 @@ the system evolves. Interestingly, one of these conditions, local harmlessness,
 can be proven by a translation to the mixin setting, making it possible to
 directly exploit previously established results about certain kinds of harmless
 extensions.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

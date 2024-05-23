@@ -9,6 +9,8 @@ paperurl: 'https://www.scitepress.org/Papers/2020/93195/93195.pdf'
 author: Hiroaki Fukuda, Paul Leger, Ismael Figueroa
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 System-level details, such as assembly language and operating systems, are
@@ -30,3 +32,6 @@ programs while showing the internal states of CPU (registers & flags) to users
 (students) to support their implementation. Finally, this paper reports the
 education results applying this methodology to 15 students that consist of
 3rd-year students and 1st year of master students.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

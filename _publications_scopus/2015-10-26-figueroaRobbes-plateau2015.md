@@ -9,6 +9,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=2846689'
 author: Ismael Figueroa, Romain Robbes
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 In 1989 John Hughes published an influential position paper entitled Why
@@ -27,3 +29,6 @@ characteristic. We discuss the influence of Why Functional Programming Matters
 on current beliefs regarding the advantages of functional programming, the
 recent citations that intrigues us, and provide a small experiment on the GHC
 Haskell compiler, suggesting the existence of modularity issues in it.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

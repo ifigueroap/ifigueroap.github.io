@@ -11,6 +11,8 @@ doi: '10.1016/j.csi.2019.03.003'
 quartil: 2
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Heuristic evaluation is one of the most widely-used methods for evaluating the
@@ -38,3 +40,6 @@ quantitative and qualitative criteria. Finally, in contrast to evaluators using
 Nielsen’s heuristics, evaluators using VLEs heuristics reported greater
 satisfaction regarding utility, clarity, ease of use, and need of additional
 elements.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

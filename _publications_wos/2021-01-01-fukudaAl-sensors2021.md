@@ -11,6 +11,8 @@ doi: '10.3390/s21041344'
 quartil: 1
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Developing robot control software systems is difficult because of a wide
@@ -33,3 +35,6 @@ In addition, we apply DSSM to an existing real SSM based robot control system
 that autonomously controls an unmanned vehicle robot. We then reveal its
 advantages and disadvantages via several experiments by measuring resource
 usages.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

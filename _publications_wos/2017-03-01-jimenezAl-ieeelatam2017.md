@@ -10,6 +10,8 @@ paperurl: 'https://ieeexplore.ieee.org/abstract/document/7867606'
 quartil: 4
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Usability is a key discipline related to the development of modern software
@@ -39,3 +41,6 @@ Rusu~etal, and we have also performed a small retrospective study, computing
 the quality indicators of several previous studies. Our results suggest that
 PROMETHEUS is a very promising methodology, and that the metrics and indicators
 are indeed pertinent with respect to the conclusions of previous works.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

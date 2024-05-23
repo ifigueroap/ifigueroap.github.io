@@ -9,6 +9,8 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=2451457'
 author: Nicolas Tabareau, Ismael Figueroa, Éric Tanter
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 We describe a novel approach to embed pointcut/advice aspects in a typed
@@ -19,3 +21,6 @@ types and a new anti-unification type class. The use of monads brings
 type-based reasoning about effects for the first time in the pointcut/advice
 setting, thereby practically combining Open Modules and EffectiveAdvice, and
 enables modular extensions of the aspect language.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

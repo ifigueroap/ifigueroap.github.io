@@ -9,7 +9,9 @@ paperurl: 'https://dl.acm.org/citation.cfm?id=1960513'
 author: Ismael Figueroa, Éric Tanter
 ---
 
-{{ author }}
+{{ page.author }}
+
+{{ page.author }}
 
 ## Abstract
 
@@ -30,3 +32,6 @@ interaction between base and aspect exceptions and handlers, and provides
 level-shifting operators to flexibly specify interaction between them when
 required. We illustrate the benefits of our proposal with a representative set
 of examples.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}

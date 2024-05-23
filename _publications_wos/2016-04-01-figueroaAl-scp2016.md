@@ -10,6 +10,8 @@ paperurl: 'https://www.sciencedirect.com/science/article/pii/S0167642315004062'
 quartil: 3
 ---
 
+{{ page.author }}
+
 ## Abstract
 
 Computational effects complicate the tasks of reasoning about and maintaining
@@ -31,3 +33,6 @@ proposing a fine-grained lattice of I/O permissions based on the current
 classification of its operations. Finally, we show that integrating effect
 capabilities with modern tag-based monadic mechanisms provides a practical,
 modular and safe mechanism for monadic programming in Haskell.
+
+>Download the paper here: [{{ page.paperurl }}]({{ page.paperurl}})
+{:.prompt-info}
