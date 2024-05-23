@@ -5,10 +5,10 @@ order: 3
 toc: true
 ---
 
-{% assign wos_collection_size = site.publications_wos | size %}
+{% if site.publications_wos.size > 0 %}
 
-{% if wos_collection_size > 0 %}
 ## WoS Publications
+
 <ul>
 {% for post in site.publications_wos reversed %}
   <li>
@@ -26,9 +26,8 @@ toc: true
 </ul>
 {% endif %}
 
-{% assign scopus_collection_size = site.publications_scopus | size %}
+{% if site.publications_scopus.size > 0 %}
 
-{% if scopus_collection_size > 0 %}
 ## Scopus Publications
 
 <ul>
@@ -48,6 +47,8 @@ toc: true
 </ul>
 {% endif %}
 
+{% if site.publications_others.size > 0 %}
+
 ## Other Publications
 
 <ul>
@@ -65,3 +66,5 @@ toc: true
   
 {% endfor %}
 </ul>
+
+{% endif %}

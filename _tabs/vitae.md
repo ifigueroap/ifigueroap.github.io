@@ -28,26 +28,8 @@ order: 2
 
 ## Research
 
-- ({{ site.publications_wos | size }}) Web of Science articles.
-- ({{ site.publications_scopus | size }}) Scopus articles.
-- ({{ site.publications_others | size }}) other articles.
+{% if site.publications_wos.size > 0 %} - ({{ site.publications_wos | size }}) [Web of Science articles](/publications#wos-publications).{% endif %}
+{% if site.publications_scopus.size > 0 %} - ({{ site.publications_scopus | size }}) [Scopus articles](/publications#scopus-publications).{% endif %}
+{% if site.publications_others.size > 0 %}-  ({{ site.publications_others | size }}) other articles.{% endif %}
 
 See the full list [here](/publications)!
-
-
-
-
-<!-- ### Talks
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-### Teaching
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-### Service and leadership
-* Currently signed in to 43 different slack teams -->
-
-
