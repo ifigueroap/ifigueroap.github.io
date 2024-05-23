@@ -18,12 +18,12 @@ order: 2
 ## Previous experiences
 
 - Nov/2020 through Nov/2022: **Lead R&D Software Engineer** at [SP Digital](https://spdigital.cl).
-- Aug/2019 through Sept/2020: **Associate Professor**, [Universidad de Valparaíso](http://www.uv.cl).
-  - [Carrera de Ingeniería en Información y Control de Gestión](http://iicg.uv.cl)
+- Aug/2019 through Sept/2020: **Associate Professor**, [Universidad de Valparaíso](https://www.uv.cl).
+  - [Carrera de Ingeniería en Información y Control de Gestión](https://iicg.uv.cl)
   - Duties included: Research, Teaching, Student Reach, Website maintenance.
-- Apr/2019 through Jul/2019: **Senior Researcher** at [Inria Chile](http://www.inria.cl).
+- Apr/2019 through Jul/2019: **Senior Researcher** at [Inria Chile](https://www.inria.cl).
 - Jan/2015 through Jan/2019: **Associate Professor**
-  - [Escuela de Ingeniería Informática](http://www.inf.ucv.cl), [Pontificia Universidad Católica de Valparaíso](http://www.pucv.cl).
+  - [Escuela de Ingeniería Informática](https://www.inf.ucv.cl), [Pontificia Universidad Católica de Valparaíso](https://www.pucv.cl).
   - Duties included: Research, Teaching, Head of local IT department
 
 ## Research
