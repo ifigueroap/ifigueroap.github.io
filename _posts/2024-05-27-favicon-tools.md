@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favicon Generator & Background Remover
+title: Favicon Generator and Background Remover
 tags:
 - webdev
 - tools
