@@ -1,6 +1,8 @@
 default:
   just --list
 
+# Jekyll Compose
+
 dev:
   bundle exec jekyll serve --incremental
 
