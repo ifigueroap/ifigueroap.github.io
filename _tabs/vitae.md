@@ -14,6 +14,7 @@ order: 2
 - **Lead R&D Software Engineer** at [Spotmind](https://www.spotmind.cl).
 - Adjunct Professor at [Computer Science Department (DCC)](https://dcc.uchile.cl), University of Chile.
   - I've been teaching the Programming Languages (CC4101) course.
+  - I've also been teaching an optative course on [Linux System Administration](https://cc5308.ifigueroap.cl).
 
 ## Previous experiences
 
